@@ -27,3 +27,55 @@ a{
 ul{
     list-style:none;
 }
+
+/* ==========================
+        NAVBAR
+========================== */
+
+header{
+    background-color: white;
+    padding:20px 0;
+    border-bottom:1px solid #e5e7eb;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo h2{
+    font-size:28px;
+    color:#111827;
+}
+
+.logo span{
+    font-size:20px;
+}
+
+.nav-menu{
+    display:flex;
+    gap:30px;
+}
+
+.nav-menu a{
+    color:#4b5563;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.nav-menu a:hover{
+    color:#2563eb;
+}
+
+.btn{
+    background-color:#2563eb;
+    color:white;
+    padding:12px 22px;
+    border-radius:6px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background-color:#1d4ed8;
+}
