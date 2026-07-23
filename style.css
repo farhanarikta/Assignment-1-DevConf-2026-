@@ -237,82 +237,172 @@ header{
 ========================== */
 
 .pricing{
-    padding:100px 0;
-    background-color:white;
+    padding: 100px 0;
+    background-color: white;
 }
 
 .pricing-container{
-    display:flex;
-    justify-content:center;
-    gap:30px;
-    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    margin-top: 50px;
 }
 
 .pricing-card{
-    background:#f8fafc;
-    width:350px;
-    padding:40px 30px;
-    border-radius:10px;
-    text-align:center;
-    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    background-color: #f8fafc;
+    width: 340px;
+    min-height: 520px;
+
+    padding: 40px 30px;
+    border-radius: 10px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+
+    display: flex;
+    flex-direction: column;
 }
 
 .pricing-card h3{
-    font-size:28px;
-    margin-bottom:15px;
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #111827;
 }
 
 .pricing-card h2{
-    font-size:45px;
-    color:#2563eb;
-    margin-bottom:25px;
+    font-size: 52px;
+    color: #2563eb;
+    margin-bottom: 30px;
 }
 
 .pricing-card ul{
-    list-style:none;
-    text-align:left;
-    margin-bottom:35px;
+    list-style: none;
+    text-align: left;
+
+    flex-grow: 1;
+
+    margin-bottom: 30px;
 }
 
 .pricing-card ul li{
-    margin-bottom:15px;
-    color:#555;
+    margin-bottom: 18px;
+    color: #555;
+    font-size: 16px;
 }
 
 .price-btn{
-    display:inline-block;
-    background:#2563eb;
-    color:white;
-    padding:14px 30px;
-    border-radius:6px;
-    font-weight:bold;
+    display: inline-block;
+
+    background-color: #2563eb;
+    color: white;
+
+    padding: 14px 30px;
+
+    border-radius: 6px;
+
+    font-weight: bold;
+
+    margin-top: auto;
+
+    transition: 0.3s;
 }
 
 .price-btn:hover{
-    background:#1d4ed8;
+    background-color: #1d4ed8;
 }
 
-/* Featured Card */
+/* Featured (Pro) Card */
 
 .featured{
-    background:#2563eb;
-    color:white;
-    transform:scale(1.05);
+    background-color: #2563eb;
+    color: white;
+    transform: scale(1.05);
+}
+
+.featured h3{
+    color: white;
 }
 
 .featured h2{
-    color:white;
+    color: white;
 }
 
 .featured ul li{
-    color:white;
+    color: white;
 }
 
 .featured .price-btn{
-    background:white;
-    color:#2563eb;
+    background-color: white;
+    color: #2563eb;
 }
 
 .featured .price-btn:hover{
-    background:#f3f4f6;
+    background-color: #f3f4f6;
+}
+
+/* ==========================
+      HACKATHON SECTION
+========================== */
+
+.hackathon{
+    padding:100px 0;
+    background-color:#f8fafc;
+}
+
+.hackathon-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+}
+
+.hackathon-text{
+    flex:1;
+}
+
+.hackathon-text h2{
+    font-size:42px;
+    color:#111827;
+    margin-bottom:20px;
+}
+
+.hackathon-text p{
+    color:#555;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.hackathon-text ul{
+    list-style:none;
+    margin-bottom:35px;
+}
+
+.hackathon-text ul li{
+    margin-bottom:15px;
+    font-size:18px;
+}
+
+.hackathon-btn{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    padding:15px 35px;
+    border-radius:6px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.hackathon-btn:hover{
+    background:#1d4ed8;
+}
+
+.hackathon-image{
+    flex:1;
+}
+
+.hackathon-image img{
+    width:100%;
+    border-radius:12px;
 }
