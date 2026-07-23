@@ -231,3 +231,88 @@ header{
     margin: 0 20px;
     color: #6b7280;
 }
+
+/* ==========================
+      PRICING SECTION
+========================== */
+
+.pricing{
+    padding:100px 0;
+    background-color:white;
+}
+
+.pricing-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:50px;
+}
+
+.pricing-card{
+    background:#f8fafc;
+    width:350px;
+    padding:40px 30px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.pricing-card h3{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.pricing-card h2{
+    font-size:45px;
+    color:#2563eb;
+    margin-bottom:25px;
+}
+
+.pricing-card ul{
+    list-style:none;
+    text-align:left;
+    margin-bottom:35px;
+}
+
+.pricing-card ul li{
+    margin-bottom:15px;
+    color:#555;
+}
+
+.price-btn{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    padding:14px 30px;
+    border-radius:6px;
+    font-weight:bold;
+}
+
+.price-btn:hover{
+    background:#1d4ed8;
+}
+
+/* Featured Card */
+
+.featured{
+    background:#2563eb;
+    color:white;
+    transform:scale(1.05);
+}
+
+.featured h2{
+    color:white;
+}
+
+.featured ul li{
+    color:white;
+}
+
+.featured .price-btn{
+    background:white;
+    color:#2563eb;
+}
+
+.featured .price-btn:hover{
+    background:#f3f4f6;
+}
