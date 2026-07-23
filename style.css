@@ -34,7 +34,16 @@ ul{
 
 header{
     background-color: white;
-    padding:20px 0;
+    
+    padding:18px 0;
+
+position:sticky;
+
+top:0;
+
+background:white;
+
+z-index:1000;
     border-bottom:1px solid #e5e7eb;
 }
 
@@ -55,7 +64,7 @@ header{
 
 .nav-menu{
     display:flex;
-    gap:30px;
+    gap:3px;
 }
 
 .nav-menu a{
